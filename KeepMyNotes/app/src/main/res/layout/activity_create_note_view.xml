@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutCreateNote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.CreateNote_View">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:clipToPadding="false"
+      >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/create_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/head_create_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_back" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"/>
+
+                <ImageView
+                    android:id="@+id/btnShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="56dp"
+                    android:src="@drawable/ic_share" />
+
+
+                <ImageView
+                    android:id="@+id/btnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="56dp"
+                    android:src="@drawable/ic_save" />
+            </LinearLayout>
+
+            //Note title field
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/title_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Note title"
+                android:textColorHint="@color/black"
+                android:fontFamily="@font/androidgyne"
+
+                app:layout_constraintTop_toBottomOf="@id/head_create_view" />
+            //Date time field
+            <LinearLayout
+                android:id="@+id/layoutdisplaylabels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/title_txt"
+                app:layout_constraintTop_toBottomOf="@+id/title_txt"
+
+                android:layout_margin="20dp"
+                android:fontFamily="@font/androidgyne"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+                >
+            </LinearLayout>
+            <TextView
+                android:id="@+id/datetimetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="13sp"
+                android:fontFamily="@font/androidgyne"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@id/layoutdisplaylabels"
+                app:layout_constraintStart_toStartOf="@id/layoutdisplaylabels"
+                app:layout_constraintTop_toBottomOf="@+id/layoutdisplaylabels" />
+
+            //Content Field
+
+
+            <EditText
+                android:id="@+id/subtitletxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                android:hint="Enter your subtitle"
+                android:textColor="@color/black"
+                android:inputType="textImeMultiLine"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/datetimetxt"
+                android:fontFamily="@font/androidgyne"
+                />
+
+
+
+            <FrameLayout
+                android:id="@+id/layoutvideo_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintTop_toBottomOf="@id/subtitletxt" >
+                <VideoView
+                    android:id="@+id/videostxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/btnRemoveVideo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_remove"
+                    app:layout_constraintEnd_toEndOf="@id/videostxt"
+                    app:layout_constraintTop_toTopOf="@id/videostxt"
+                    app:tint="@color/color_option_red"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imgtxt"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="12dp"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@id/layoutvideo_frame"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <ImageView
+                android:id="@+id/btnRemoveImg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_remove"
+                app:layout_constraintEnd_toEndOf="@id/imgtxt"
+                app:layout_constraintTop_toTopOf="@id/imgtxt"
+                app:tint="@color/color_option_red"
+
+                android:visibility="gone"/>
+
+
+            <EditText
+                android:id="@+id/contenttxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="top"
+                android:hint="Type your content here"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="textImeMultiLine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgtxt"
+                android:fontFamily="@font/androidgyne"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/color_option_note"/>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

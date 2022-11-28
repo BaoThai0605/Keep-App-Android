@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginForm"
+    android:orientation="vertical"
+    android:gravity="center">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgound2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/androidgyne"
+            android:gravity="center"
+            android:text="Note App Lực"
+            android:textColor="#EEB0B0"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/androidgyne"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#FFF89A"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone number"
+                android:textColor="#BDE6F1"
+                android:textSize="20sp"
+                android:fontFamily="@font/androidgyne"/>
+
+            <EditText
+                android:id="@+id/Emailtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:digits="0123456789"
+                android:hint="Enter your phone number"
+                android:inputType="number"
+                android:textColor="#FF8AAE"
+                android:textColorHint="@color/white"
+                android:fontFamily="@font/androidgyne"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#BDE6F1"
+                android:textSize="20sp"
+                android:fontFamily="@font/androidgyne"/>
+
+            <EditText
+                android:id="@+id/Passwordtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:textColor="#FF8AAE"
+                android:textColorHint="@color/white"
+                android:fontFamily="@font/androidgyne"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Forgot password ? Click here"
+            android:textColor="#FFE59D"
+            android:textSize="15sp"
+            android:fontFamily="@font/androidgyne"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#EEB0B0"
+
+            android:text="Login"
+            android:textColor="@color/white"
+            android:fontFamily="@font/androidgyne"/>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#EEB0B0"
+            android:text="Don't have an account? Register"
+            android:fontFamily="@font/androidgyne"/>
+
+    </LinearLayout>
+</RelativeLayout>

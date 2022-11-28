@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginForm"
+    android:orientation="vertical"
+    android:gravity="center">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgound2"
+
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginForm"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF89A"
+            android:textSize="30sp"
+            android:text="Change Password"
+            android:fontFamily="@font/androidgyne"/>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Old Password"
+                android:textColor="#9ADCFF"
+                android:textSize="20sp"
+                android:fontFamily="@font/androidgyne"
+                />
+
+            <EditText
+                android:id="@+id/oldpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter your old password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/androidgyne"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Password"
+                android:textColor="#9ADCFF"
+                android:textSize="20sp"
+                android:fontFamily="@font/androidgyne"/>
+
+            <EditText
+                android:id="@+id/newpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter your new password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/androidgyne"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm new Password"
+                android:textColor="#9ADCFF"
+                android:textSize="20sp"
+                android:fontFamily="@font/androidgyne"
+
+                />
+
+            <EditText
+                android:id="@+id/cfnewpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Confirm your new password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/androidgyne"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnChangePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFB2A6"
+        android:text="Change password"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/androidgyne"/>
+
+</LinearLayout>
+</RelativeLayout>

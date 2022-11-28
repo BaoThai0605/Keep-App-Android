@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FEFBE7">
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/Rcv_label"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/nulllabel"
+        android:visibility="gone"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Labels is Exist"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/btnAddLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8AAE"
+        android:textColor="@color/white"
+        android:text="Create Labels"/>
+</LinearLayout>

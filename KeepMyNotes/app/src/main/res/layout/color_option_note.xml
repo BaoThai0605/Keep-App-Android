@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutOptionnote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E78EA9"
+
+    android:orientation="vertical"
+    app:behavior_peekHeight="40dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:id="@+id/optioncolor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Option"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/androidgyne"
+        android:backgroundTint="#FF6FB5"/>
+
+    <LinearLayout
+        android:id="@+id/layoutColorOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/colordefault"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/option_color_bg" />
+
+            <ImageView
+                android:id="@+id/imgcolordefalt"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_done" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/colorRed"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/option_color_red" />
+
+            <ImageView
+                android:id="@+id/imgcolorRed"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/colorGreen"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/option_color_green" />
+
+            <ImageView
+                android:id="@+id/imgcolorGreen"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/colorYellow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/option_color_yellow" />
+
+            <ImageView
+                android:id="@+id/imgcolorYellow"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/colorBlue"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/option_color_blue" />
+
+            <ImageView
+                android:id="@+id/imgcolorBlue"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Color"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAddimg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_img"
+            app:tint="#FCF69C" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Add Image"
+            android:textColor="#FCF69C"
+            android:textSize="17sp"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutaddVideo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_video"
+            app:tint="#FCF69C" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Add Video"
+            android:textColor="#FCF69C"
+            android:textSize="17sp"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutaddLabels"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_label"
+            app:tint="#FCF69C" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Add Label"
+            android:textColor="#FCF69C"
+            android:textSize="17sp"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutsetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_key"
+            app:tint="#FCF69C" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Password"
+            android:textColor="#FCF69C"
+            android:textSize="17sp"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/changepassword_note"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_key"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Change Password"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/removepassword_note"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_key"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Remove Password"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/deletenote"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_deletenote"
+            app:tint="@color/color_option_red" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Delete Note"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+
+</LinearLayout>

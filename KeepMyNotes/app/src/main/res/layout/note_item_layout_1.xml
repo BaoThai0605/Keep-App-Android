@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutfornote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/passdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_password"
+            app:tint="#D885A3"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/alarmdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_alarm"
+            app:tint="#D885A3"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imgViewNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:adjustViewBounds="true"
+            android:layout_margin="3dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                android:layout_margin="3dp"/>
+        </FrameLayout>
+
+        <TextView
+
+            android:id="@+id/title_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            android:textColor="#EB5353"
+            android:text="titlehere"
+            android:fontFamily="@font/androidgyne"/>
+        <TextView
+            android:id="@+id/subtitle_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:includeFontPadding="false"
+            android:textColor="#F9D923"
+            android:text="titlehere"
+            android:fontFamily="@font/androidgyne"/>
+        <TextView
+            android:id="@+id/content_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:includeFontPadding="false"
+            android:textColor="#36AE7C"
+            android:text="titlehere"
+            android:fontFamily="@font/androidgyne"/>
+        <TextView
+            android:id="@+id/datetime_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:includeFontPadding="false"
+            android:textColor="#187498"
+            android:text="titlehere"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LabelsNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+
+        android:backgroundTint="@color/white"
+
+        >
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

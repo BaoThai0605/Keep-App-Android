@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "118683878371",
+    "firebase_url": "https://noteappbachay-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "noteappbachay",
+    "storage_bucket": "noteappbachay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118683878371:android:66cffbe0f46360b97b96d6",
+        "android_client_info": {
+          "package_name": "com.example.keepmynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118683878371-fhm0ud7n5o3ofbtuluo9f6fkkcesf5aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keepmynotes",
+            "certificate_hash": "0707e39cdb4d065c2d09ef957edeac743f4febb0"
+          }
+        },
+        {
+          "client_id": "118683878371-j5ni2ttov58gai2n3admv5ds296dujs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_5O3klBPJcGzAp69-zb2VMUIN5CH2IEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118683878371-j5ni2ttov58gai2n3admv5ds296dujs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

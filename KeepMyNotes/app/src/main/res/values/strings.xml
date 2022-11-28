@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KeepMyNotes</string>
+    <string name="nav_notification">Notification</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_label">Label</string>
+    <string name="nav_password">Password</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_recycleBin">RecycleBin</string>
+    <string name="nav_changepassword">ChangePassword</string>
+
+    <string name="nav_logout">LogOut</string>
+    <string name="nav_open">Open Navigation</string>
+    <string name="nav_close">Close Navigation</string>
+
+
+</resources>

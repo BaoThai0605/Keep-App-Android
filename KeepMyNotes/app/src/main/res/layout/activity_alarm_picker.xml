@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFBE7"
+    android:layout_margin="10dp"
+    android:left="5dp"
+    android:top="5dp"
+    android:right="5dp"
+    android:bottom="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFBE7">
+        <TextView
+            android:id="@+id/DatePicker_txt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:hint="Choose Date"
+            android:textSize="25sp"
+            android:textColorHint="#40DFEF"
+            android:textColor="#40DFEF"
+            android:fontFamily="@font/androidgyne"/>
+        <Button
+            android:id="@+id/DatePicker"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Date Picker"
+            android:backgroundTint="#E78EA9"
+            android:fontFamily="@font/androidgyne"
+           />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFBE7">
+        <TextView
+            android:id="@+id/TimePicker_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:hint="Choose Time"
+            android:textSize="25sp"
+            android:textColorHint="#40DFEF"
+            android:textColor="#40DFEF"
+            android:fontFamily="@font/androidgyne"/>
+        <Button
+            android:id="@+id/TimePicker"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Picker"
+            android:backgroundTint="#E78EA9"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_setalarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:layout_margin="5dp"
+        android:backgroundTint="#E78EA9"
+        android:fontFamily="@font/androidgyne"/>
+
+    <Button
+        android:id="@+id/btn_cancel_setalarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_margin="5dp"
+        android:backgroundTint="#E78EA9"
+        android:fontFamily="@font/androidgyne"/>
+
+
+</LinearLayout>

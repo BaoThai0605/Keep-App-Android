@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".View.LoginForm">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgound2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".View.LoginForm">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/androidgyne"
+                android:gravity="center"
+                android:text="Register"
+                android:textColor="#FFE59D"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/androidgyne"
+                    android:text="Name"
+                    android:textColor="#EEB0B0"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/name_rgt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/androidgyne"
+                    android:hint="Enter your name"
+                    android:textColor="#BDE6F1"
+                    android:textColorHint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/androidgyne"
+                    android:text="Phone"
+                    android:textColor="#EEB0B0"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/phone_rgt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:digits="0123456789"
+                    android:fontFamily="@font/androidgyne"
+                    android:hint="Enter your phone number"
+                    android:inputType="number"
+                    android:textColor="#BDE6F1"
+                    android:textColorHint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textColor="#EEB0B0"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/pass_rgt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/androidgyne"
+                    android:hint="Enter your password"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:textColor="#BDE6F1"
+                    android:textColorHint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/androidgyne"
+                    android:text="Confirm Password"
+                    android:textColor="#EEB0B0"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/cpass_rgt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/androidgyne"
+                    android:hint="Confirm your password"
+                    android:inputType="textPassword"
+                    android:textColor="#BDE6F1"
+                    android:textColorHint="@color/white" />
+
+                <Button
+                    android:id="@+id/btnRgt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:backgroundTint="#EEB0B0"
+                    android:fontFamily="@font/androidgyne"
+                    android:text="Register"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/backtoLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+
+                    android:backgroundTint="#EEB0B0"
+                    android:fontFamily="@font/androidgyne"
+                    android:text="Back to Login Screen" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

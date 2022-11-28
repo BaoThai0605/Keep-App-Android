@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginForm"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFBE7"
+
+        />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutCreateNote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:hint="Note title"
+                android:textColorHint="#40DFEF"
+                android:textColor="#40DFEF"
+                android:fontFamily="@font/androidgyne"/>
+
+            <TextView
+                android:id="@+id/Datetime_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Datetime"
+                android:fontFamily="@font/androidgyne"
+                android:textColor="#FF8AAE"/>
+
+
+
+            <TextView
+                android:id="@+id/SubTitle_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:textColorHint="@color/black"
+                android:hint="Subtitle"
+                android:inputType="textImeMultiLine"
+                android:textSize="24sp"
+                android:fontFamily="@font/androidgyne"
+                />
+
+            <VideoView
+                android:id="@+id/Video_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="12dp"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/Img_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="12dp"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@id/videostxt" />
+
+            <TextView
+                android:id="@+id/Content_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="top"
+                android:hint="Type note here"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:inputType="textImeMultiLine"
+                android:fontFamily="@font/androidgyne"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_Stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:backgroundTint="#E78EA9"
+        android:layout_margin="20dp">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#FFFBE7"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:padding="9dp"
+        android:textColor="#40DFEF"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/androidgyne"
+
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAddalarm_dialog"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E78EA9"
+            android:layout_margin="5dp"
+            android:text="Set Alarm"
+            android:fontFamily="@font/androidgyne"
+
+
+
+            />
+
+
+        <Button
+            android:id="@+id/btnAddalarm1m_dialog"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E78EA9"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="1 minute"
+            android:fontFamily="@font/androidgyne"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/removeAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E78EA9"
+        android:layout_margin="5dp"
+        android:text="Remove Alarm"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

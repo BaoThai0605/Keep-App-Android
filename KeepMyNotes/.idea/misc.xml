@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_alarm_detail.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_alarm_picker.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_create_note_view.xml" value="0.33" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_get_otp_forgotpassword.xml" value="0.1875" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_login_form.xml" value="0.1875" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_main.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_pick_label_screen.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_recovery_password.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_register_form.xml" value="0.176" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_vertify_again_screen.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_vertify_by_otp.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_vertify_email_screen.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/activity_view_by_label_screen.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/changepass_fragment.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/color_option_note.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/diagloc_add_label.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/diagloc_edit_label.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/dialog_changepassword_layout.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/dialog_delete_confirm.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/dialog_password_layout.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/dialog_remove_password_layout.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/dialog_set_password_layout.xml" value="0.34270833333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/home_fragment.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/label_fragment.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/layout_item_label_seletecd.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/layout_item_labels.xml" value="0.1875" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/layout_item_recycle.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/nav_header_layout.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/note_item_layout_1.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/option_alarm_layout.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/recycle_bin_fragment.xml" value="0.3015625" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/layout/setting_fragment.xml" value="0.35833333333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/menu/nav_menu_layout.xml" value="0.35833333333333334" />
+        <entry key="..\:/Android project/KeepMyNotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.239" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/bg_add_btn.xml" value="0.314" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_access_alarm.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_add_alarm.xml" value="0.314" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_addnotes.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_alarm.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_back.xml" value="0.314" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_baseline_alarm_off_24.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_changepass.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_delete.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_deletenote.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_done.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_img.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_key.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_label.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_multicol.xml" value="0.314" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_nav_notes.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_note.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_onecol.xml" value="0.314" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_password.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_recyclebin.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_save.xml" value="0.2745" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_search.xml" value="0.314" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_setting.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_share.xml" value="0.1295" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_video.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/ic_waitmessage.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/option_color_bg.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/option_color_blue.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/option_color_green.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/option_color_red.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/drawable/option_color_yellow.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_alarm_detail.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_alarm_picker.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_create_note_view.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_get_otp_forgotpassword.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_login_form.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_main.xml" value="0.4666666666666667" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_pick_label_screen.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_recovery_password.xml" value="0.17239583333333333" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_register_form.xml" value="0.16" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_vertify_again_screen.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_vertify_by_otp.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_vertify_email_screen.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/activity_view_by_label_screen.xml" value="0.14444444444444443" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/changepass_fragment.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/color_option_note.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/diagloc_add_label.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/diagloc_edit_label.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/dialog_changepassword_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/dialog_delete_confirm.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/dialog_password_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/dialog_remove_password_layout.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/dialog_set_password_layout.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/home_fragment.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/label_fragment.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/layout_item_label_seletecd.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/layout_item_labels.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/layout_item_recycle.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/nav_header_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/note_item_layout_1.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/option_alarm_layout.xml" value="0.17239583333333333" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/recycle_bin_fragment.xml" value="0.14444444444444443" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/layout/setting_fragment.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/menu/layout_labels_option_menu.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/menu/layout_option_menu_label.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/menu/nav_menu_layout.xml" value="0.23333333333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/menu/optionmenu_createnotes.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjectCK/KeepMyNotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2395" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/bg_add_btn.xml" value="0.1355" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/ic_addnotes.xml" value="0.2405" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/ic_nav_arlam.xml" value="0.28" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/ic_recyclebin.xml" value="0.28" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/ic_remove.xml" value="0.28" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/option_color_bg.xml" value="0.241" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/option_color_blue.xml" value="0.161" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/option_color_green.xml" value="0.161" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/option_color_red.xml" value="0.2275" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/drawable/option_color_yellow.xml" value="0.161" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/font/alice.xml" value="0.29322916666666665" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/font/defaultfont.xml" value="0.29322916666666665" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/font/font_default.xml" value="0.2760416666666667" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_add_note.xml" value="0.10989583333333333" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_alarm_detail.xml" value="0.2760416666666667" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_alarm_picker.xml" value="0.29483695652173914" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_create_note_view.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_get_otp_forgotpassword.xml" value="0.3171875" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_login_form.xml" value="0.33" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_pick_label_screen.xml" value="0.234375" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_recovery_password.xml" value="0.3171875" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_register_form.xml" value="0.33125" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_vertify_again_screen.xml" value="0.2786458333333333" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_vertify_by_otp.xml" value="0.3171875" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_vertify_email_screen.xml" value="0.33125" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/activity_view_by_label_screen.xml" value="0.2625" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/changepass_fragment.xml" value="0.33" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/changepassword_fragment.xml" value="0.32725060827250607" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/color_option_note.xml" value="0.4" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/datetimepicker_dialog.xml" value="0.2760416666666667" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/diagloc_add_label.xml" value="0.3625" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/diagloc_edit_label.xml" value="0.3625" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/dialog_changepassword_layout.xml" value="0.17844202898550723" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/dialog_delete_confirm.xml" value="0.245018115942029" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/dialog_password_layout.xml" value="0.234375" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/dialog_remove_password_layout.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/dialog_set_password_layout.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/home_fragment.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/label_fragment.xml" value="0.33" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/layout_item_label_seletecd.xml" value="0.264" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/layout_item_labels.xml" value="0.3078125" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/layout_item_recycle.xml" value="0.33" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/nav_header_layout.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/note_item_layout_1.xml" value="0.4" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/note_item_layout_2.xml" value="0.2109375" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/option_alarm_layout.xml" value="0.346875" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/recycle_bin_fragment.xml" value="0.2" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/setting_fragment.xml" value="0.3523550724637681" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/layout/test.xml" value="0.18385416666666668" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/alarm_note_check.xml" value="0.346875" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/alarm_note_uncheck.xml" value="0.346875" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/context_menu_note.xml" value="1.0" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/layout_labels_option_menu.xml" value="0.3625" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/layout_option_menu_label.xml" value="0.3078125" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/nav_menu_layout.xml" value="0.25" />
+        <entry key="..\:/KeepMyNotes/app/src/main/res/menu/optionmenu_createnotes.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

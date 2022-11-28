@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginForm"
+    android:orientation="vertical"
+    android:gravity="center">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgound2"
+
+        />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".View.VertifyEmail_Screen"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Please Enter the OTP to Vertify"
+            android:textColor="#EEB0B0"
+            android:textSize="25sp"
+            android:fontFamily="@font/androidgyne"
+            />
+
+        <EditText
+            android:id="@+id/OTP_code_revtf"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="Enter your OTP"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textColor="#9ADCFF"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/androidgyne"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnReVtf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vertify"
+        android:fontFamily="@font/androidgyne"
+        android:backgroundTint="#EEB0B0"
+        />
+    <Button
+        android:id="@+id/btnBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EEB0B0"
+        android:text="Back"
+        android:fontFamily="@font/androidgyne"/>
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginForm"
+    android:orientation="vertical"
+    android:gravity="center">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgound2"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".View.VertifyEmail_Screen">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/androidgyne"
+            android:gravity="center"
+            android:text="Please Enter the OTP to Login"
+            android:textColor="#FFF89A"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <EditText
+                android:id="@+id/OTP_code"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:hint="Enter your OTP"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVtf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="#EEB0B0"
+            android:fontFamily="@font/androidgyne"
+            android:text="Vertify" />
+
+        <TextView
+            android:id="@+id/ResendOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/androidgyne"
+            android:gravity="center"
+            android:text="Can't not recived OTP vertify ? Click here"
+            android:textColor="#FFF89A"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/btnSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/color_option_red"
+            android:fontFamily="@font/androidgyne"
+            android:gravity="bottom"
+            android:text="If you don't want verify ? Skip now"
+            android:textColor="#9ADCFF" />
+
+    </LinearLayout>
+</RelativeLayout>
